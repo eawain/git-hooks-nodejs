@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/eawain/git-hooks-nodejs#readme",
   "devDependencies": {
-    "jest": "^27.0.4"
-  }
+    "husky": "^4.3.8",
+    "jest": "^27.0.4",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+  "test"
 }
